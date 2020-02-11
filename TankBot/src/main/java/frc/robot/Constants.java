@@ -16,4 +16,28 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
+
+    // DriveTrain Motors
+    public static int kTankR = 0;
+    public static int kTankL = 1;
+
+    // Controller Axises 
+    public static int kDriverY = 0;
+    public static int kDriverX = 5;
+
+    // Controller Buttons
+    public static int kButtonA = 1;
+    public static int kButtonB = 2;
+    public static int kButtonX = 3;
+    public static int kButtonY = 4;
+    
+
+    // Shuffleboard Widget Pos Units Blocks
+    public static int kWidgetHight = 1;
+    public static int kWidgetWidth = 2;
+
+    // Vision Processor Cam Modes
+    public static int kVisionRGB = 1;
+    public static int kVisionIR = 2;
+    public static int kVisionDepth = 3;
 }
